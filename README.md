@@ -1,6 +1,6 @@
 # Portfolio — Adam Yacoubou
 
-Portfolio personnel one-page en français, réalisé en HTML, CSS et JavaScript vanilla. Aucun framework ni étape de compilation n’est nécessaire. La direction visuelle s’appuie sur une illustration locale originale de code, deux panneaux d’extraits CSS génériques et des changements de couleur au survol/focus. La page présente uniquement les informations certaines du brief ; l’avatar signale explicitement que la photo originale n’était pas disponible et le CV téléchargeable est reconstitué à partir de ces mêmes informations.
+Portfolio personnel one-page en français, réalisé en HTML, CSS et JavaScript vanilla. Aucun framework ni étape de compilation n’est nécessaire. La direction visuelle s’appuie sur une illustration locale originale de code et deux panneaux d’extraits CSS génériques. Le portrait de la page d’accueil utilise la photo publique du profil GitHub `halik81`. Le CV téléchargeable est reconstitué uniquement à partir des informations fournies.
 
 ## Prévisualiser en local
 
@@ -14,12 +14,7 @@ Puis ouvrir <http://localhost:8000>.
 
 ## Déployer sur GitHub Pages
 
-1. Ajouter le contenu du dossier à la branche `main` d’un dépôt GitHub.
-2. Dans **Settings → Pages → Build and deployment**, choisir **GitHub Actions**.
-3. Le workflow `.github/workflows/pages.yml` publie le contenu du dépôt à chaque push sur `main` et lors d’un lancement manuel.
-4. L’adresse publique apparaît dans **Settings → Pages** et dans le résumé du workflow de déploiement.
-
-La page n’a pas de domaine public attribué : aucune URL canonique n’est déclarée afin de ne pas en inventer une.
+Le dépôt publie automatiquement la branche `main` avec GitHub Actions. Le portfolio est disponible à l’adresse <https://halik81.github.io/adam-yacoubou-portfolio/>.
 
 ## Contenu du projet
 
