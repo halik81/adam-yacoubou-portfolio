@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio d’Adam Yacoubou, alias El-Halik, étudiant en Système Informatique et Logiciel à Parakou, Bénin.">
+    <meta name="theme-color" content="#0a1a2a">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Adam Yacoubou — El-Halik">
+    <meta property="og:description" content="Étudiant en Système Informatique et Logiciel · Parakou, Bénin">
+    <meta name="twitter:card" content="summary">
+    <title>Adam Yacoubou — El-Halik | Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#accueil" aria-label="Adam Yacoubou, accueil">
+        <span class="wordmark__mark">AY</span>
+        <span class="wordmark__name">Adam Yacoubou<span class="wordmark__alias"> / El-Halik</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#accueil" aria-current="page">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experience">Expérience</a>
+        <a href="#formation">Formation</a>
+        <a href="#langues">Langues & intérêts</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Activer le thème clair" aria-pressed="false">
+        <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+        <span class="theme-toggle__label">Thème</span>
+      </button>
+    </header>
+
+    <main id="contenu">
+      <section class="hero section-shell" id="accueil" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="status-dot"></span> Portfolio personnel <span class="eyebrow__line"></span> Parakou, Bénin</p>
+          <h1 id="hero-title">Adam<br><span>Yacoubou</span><sup>01</sup></h1>
+          <p class="hero__alias">dit <strong>« El-Halik »</strong></p>
+          <p class="hero__role">Étudiant en Système Informatique et Logiciel<br><span>Stagiaire · projets pratiques depuis 2025</span></p>
+          <div class="typed-line" aria-label="Domaines de compétences">
+            <span class="typed-line__prefix">J’explore</span>
+            <span id="typed-skill" aria-live="off">le développement web</span><span class="typed-cursor" aria-hidden="true">_</span>
+          </div>
+          <div class="hero__actions">
+            <a class="button button--primary" href="assets/cv-adam-yacoubou.txt" download="CV-Adam-Yacoubou.txt">Télécharger mon CV <span aria-hidden="true">↓</span></a>
+            <a class="button button--text" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero__note">CV reconstitué à partir des informations disponibles.</p>
+        </div>
+        <div class="hero__visual" aria-label="Portrait non fourni et illustration de code">
+          <div class="code-window code-window--back" aria-hidden="true">
+            <div class="code-window__bar"><span class="code-window__lights"></span><span>layout.css</span><span>CSS</span></div>
+            <pre><code><span class="code-token code-token--blue">.profile</span> {
+  <span class="code-token code-token--green">display</span>: grid;
+  <span class="code-token code-token--green">gap</span>: <span class="code-token code-token--amber">1.5rem</span>;
+}
+
+<span class="code-token code-token--blue">@media</span> (min-width: 48rem) {
+  .profile { grid-template-columns: 1fr 1fr; }
+}</code></pre>
+          </div>
+          <div class="portrait-frame">
+            <div class="portrait-placeholder" role="img" aria-label="Avatar placeholder : photo non fournie">
+              <span class="portrait-placeholder__ring"></span>
+              <span class="portrait-placeholder__initials">AY</span>
+              <span class="portrait-placeholder__caption">Photo non fournie</span>
+            </div>
+            <span class="portrait-frame__index">FIG. 01 <span>—</span> PROFIL</span>
+            <span class="orbit orbit--one" aria-hidden="true"></span>
+            <span class="orbit orbit--two" aria-hidden="true"></span>
+          </div>
+          <div class="code-window code-window--front" aria-hidden="true">
+            <div class="code-window__bar"><span class="code-window__lights"></span><span>accessibilite.css</span><span>CSS</span></div>
+            <pre><code><span class="code-token code-token--blue">:focus-visible</span> {
+  <span class="code-token code-token--green">outline</span>: <span class="code-token code-token--amber">2px solid</span> #3fb0c8;
+  <span class="code-token code-token--green">outline-offset</span>: <span class="code-token code-token--amber">4px</span>;
+}</code></pre>
+          </div>
+          <div class="hero__coordinate"><span>Parakou</span><span>Bénin</span></div>
+        </div>
+        <a class="scroll-cue" href="#apropos"><span aria-hidden="true">↓</span> Faire défiler</a>
+      </section>
+
+      <section class="section section--light" id="apropos" aria-labelledby="about-title">
+        <div class="section-shell section-layout">
+          <div class="section-kicker"><span>01 / PROFIL</span><span class="section-kicker__rule"></span></div>
+          <div class="section-content reveal">
+            <p class="eyebrow eyebrow--dark">À propos</p>
+            <h2 id="about-title">Curieux du numérique,<br><span>ancré dans le réel.</span></h2>
+            <div class="about-grid">
+              <p class="about-lead">Je suis étudiant en informatique, en Licence Système Informatique et Logiciel. Je m’intéresse aux outils et aux systèmes qui rendent le quotidien plus simple.</p>
+              <div class="about-detail">
+                <p>Depuis 2025, je prends part à des périodes de stage et à des projets pratiques. Cette page rassemble mon parcours et les domaines que j’étudie, sans ajouter de missions ou de réalisations non documentées.</p>
+                <p class="location-line"><span aria-hidden="true">⌖</span> Amawignon, Parakou · Bénin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="competences" aria-labelledby="skills-title">
+        <div class="section-shell section-layout">
+          <div class="section-kicker"><span>02 / SAVOIR-FAIRE</span><span class="section-kicker__rule"></span></div>
+          <div class="section-content">
+            <div class="section-heading reveal">
+              <div><p class="eyebrow">Compétences</p><h2 id="skills-title">Des bases pour<br><span>construire la suite.</span></h2></div>
+              <p class="section-heading__aside">Quatre domaines d’apprentissage au cœur de mon parcours.</p>
+            </div>
+            <div class="skills-list">
+              <article class="skill-item reveal" tabindex="0">
+                <span class="skill-item__number">01</span>
+                <div><h3>Développement web</h3><p>Créer et déployer des sites dynamiques et adaptatifs.</p></div>
+                <span class="skill-item__symbol" aria-hidden="true">↗</span>
+              </article>
+              <article class="skill-item reveal" tabindex="0">
+                <span class="skill-item__number">02</span>
+                <div><h3>Bases de données</h3><p>Concevoir, implémenter et administrer des bases relationnelles.</p></div>
+                <span class="skill-item__symbol" aria-hidden="true">⌘</span>
+              </article>
+              <article class="skill-item reveal" tabindex="0">
+                <span class="skill-item__number">03</span>
+                <div><h3>Systèmes informatiques</h3><p>Installer, configurer et maintenir des environnements logiciels.</p></div>
+                <span class="skill-item__symbol" aria-hidden="true">⏣</span>
+              </article>
+              <article class="skill-item reveal" tabindex="0">
+                <span class="skill-item__number">04</span>
+                <div><h3>Résolution de problèmes</h3><p>Diagnostiquer et résoudre des incidents matériels et systèmes.</p></div>
+                <span class="skill-item__symbol" aria-hidden="true">＋</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--light" id="experience" aria-labelledby="experience-title">
+        <div class="section-shell section-layout">
+          <div class="section-kicker"><span>03 / PARCOURS</span><span class="section-kicker__rule"></span></div>
+          <div class="section-content">
+            <p class="eyebrow eyebrow--dark">Expérience</p>
+            <div class="timeline-heading reveal"><h2 id="experience-title">Apprendre<br><span>en faisant.</span></h2><p>Une première étape, en parallèle de la formation.</p></div>
+            <div class="timeline">
+              <article class="timeline-entry reveal">
+                <span class="timeline-entry__date">Depuis 2025</span>
+                <span class="timeline-entry__node" aria-hidden="true"></span>
+                <div class="timeline-entry__content"><p class="timeline-entry__type">Stage & pratique</p><h3>Stagiaire et projets pratiques</h3><p>Expérience indiquée depuis 2025.</p></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tint" id="formation" aria-labelledby="education-title">
+        <div class="section-shell section-layout">
+          <div class="section-kicker"><span>04 / APPRENTISSAGE</span><span class="section-kicker__rule"></span></div>
+          <div class="section-content">
+            <p class="eyebrow eyebrow--dark">Formation & diplômes</p>
+            <h2 id="education-title" class="reveal">Le parcours,<br><span>étape par étape.</span></h2>
+            <div class="education-list">
+              <article class="education-entry reveal">
+                <span class="education-entry__year">2026–2027</span><span class="education-entry__marker" aria-hidden="true"></span>
+                <div><p class="education-entry__state">En cours</p><h3>Licence Système Informatique et Logiciel</h3><p>2e année</p></div>
+              </article>
+              <article class="education-entry reveal">
+                <span class="education-entry__year">2025–2026</span><span class="education-entry__marker" aria-hidden="true"></span>
+                <div><h3>Licence Système Informatique et Logiciel</h3></div>
+              </article>
+              <article class="education-entry reveal">
+                <span class="education-entry__year">2024</span><span class="education-entry__marker" aria-hidden="true"></span>
+                <div><h3>Baccalauréat</h3></div>
+              </article>
+              <article class="education-entry reveal">
+                <span class="education-entry__year">2019</span><span class="education-entry__marker" aria-hidden="true"></span>
+                <div><h3>BEPC</h3></div>
+              </article>
+              <article class="education-entry reveal">
+                <span class="education-entry__year">2015</span><span class="education-entry__marker" aria-hidden="true"></span>
+                <div><h3>CEP</h3></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="langues" aria-labelledby="interests-title">
+        <div class="section-shell section-layout">
+          <div class="section-kicker"><span>05 / HORIZONS</span><span class="section-kicker__rule"></span></div>
+          <div class="section-content">
+            <p class="eyebrow">Langues & centres d’intérêt</p>
+            <h2 id="interests-title" class="reveal">Des mots, des idées,<br><span>des découvertes.</span></h2>
+            <div class="horizons-grid reveal">
+              <div class="horizon-block"><p class="horizon-block__label">Langues</p>
+                <ul class="language-list">
+                  <li><span>Français</span><span class="language-list__line"></span></li>
+                  <li><span>Dendi</span><span class="language-list__note">Langue maternelle</span></li>
+                  <li><span>Anglais</span><span class="language-list__note">Conversationnel</span></li>
+                </ul>
+              </div>
+              <div class="horizon-block horizon-block--interests"><p class="horizon-block__label">Centres d’intérêt</p>
+                <div class="interest-words"><span>Jeux vidéo</span><span>Cinéma</span><span>Musique</span></div>
+                <p class="horizon-block__note">Des curiosités, loin de l’écran comme devant.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-section__grid" aria-hidden="true"></div>
+        <div class="section-shell contact-inner reveal">
+          <div class="section-kicker section-kicker--contact"><span>06 / ÉCHANGE</span><span class="section-kicker__rule"></span></div>
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Une conversation<br>commence <span>ici.</span></h2>
+            <p class="contact-copy__intro">Pour échanger autour de mon parcours ou d’une opportunité de stage, vous pouvez me joindre directement.</p>
+            <a class="contact-email" href="mailto:halikadam81@gmail.com">halikadam81@gmail.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-links">
+            <a href="tel:+22958693868"><span class="contact-links__label">Téléphone</span><span>+229 58 69 38 68</span><span aria-hidden="true">↗</span></a>
+            <a href="https://wa.me/22958693868" target="_blank" rel="noopener noreferrer"><span class="contact-links__label">WhatsApp</span><span>Écrire un message</span><span aria-hidden="true">↗</span></a>
+            <span class="contact-links__location"><span class="contact-links__label">Localisation</span><span>Parakou, Bénin</span></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell site-footer__inner">
+        <a class="wordmark wordmark--footer" href="#accueil"><span class="wordmark__mark">AY</span><span class="wordmark__name">Adam Yacoubou<span class="wordmark__alias"> / El-Halik</span></span></a>
+        <p>Un portfolio en évolution. <span>© <span id="current-year">2026</span> Adam Yacoubou</span></p>
+        <a class="back-to-top" href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
